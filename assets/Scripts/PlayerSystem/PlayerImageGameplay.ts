@@ -16,9 +16,10 @@ export class PlayerImageGamePlay extends Component
     private changeFishUI(id: string){
         const data = MainGameManager.instance.spineManager.getSpineDataFromId(`UI${id}`);
         let playerUI = instantiate(data);
-        this.render.skeletonData = playerUI.getComponent(sp.Skeleton).skeletonData
-        playerUI.active = false
-        this.render.addAnimation(0,"idle",true)
+        this.render.skeletonData = playerUI.getComponent(sp.Skeleton).skeletonData;
+        this.render.setSkin("skin1");
+        this.render.addAnimation(0,"idle",true);
+        playerUI.active = false;
         // let accessorySlot = playerUI.getComponentInChildren(AccessorySlot);
         // if(!accessorySlot){
         //     playerUI.getChildByName("AccessorySlot").addComponent(AccessorySlot);

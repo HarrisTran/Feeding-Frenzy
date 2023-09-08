@@ -18,7 +18,7 @@
         "__id__": 2
       },
       {
-        "__id__": 292
+        "__id__": 293
       },
       {
         "__id__": 6
@@ -27,7 +27,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 294
+      "__id__": 295
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -58,7 +58,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 297
+      "__id__": 298
     },
     "_id": "b3526aa9-0453-4035-bc50-b10b3bda9b4a"
   },
@@ -133,19 +133,19 @@
       "__id__": 5
     },
     "eatReader": {
-      "__id__": 288
+      "__id__": 289
     },
     "size": {
-      "__id__": 290
+      "__id__": 291
     },
     "selffish": {
-      "__id__": 286
+      "__id__": 287
     },
     "playerAnimation": {
       "__id__": 269
     },
     "movementLimit": {
-      "__id__": 289
+      "__id__": 290
     },
     "speedControl": {
       "__id__": 248
@@ -168,37 +168,37 @@
         "__id__": 266
       },
       {
-        "__id__": 276
+        "__id__": 277
       },
       {
-        "__id__": 282
+        "__id__": 283
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 285
-      },
-      {
         "__id__": 286
-      },
-      {
-        "__id__": 288
-      },
-      {
-        "__id__": 4
-      },
-      {
-        "__id__": 289
       },
       {
         "__id__": 287
       },
       {
+        "__id__": 289
+      },
+      {
+        "__id__": 4
+      },
+      {
         "__id__": 290
       },
       {
+        "__id__": 288
+      },
+      {
         "__id__": 291
+      },
+      {
+        "__id__": 292
       }
     ],
     "_prefab": null,
@@ -1317,7 +1317,7 @@
     "_priority": 1,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 641.8285714285714,
+    "_orthoHeight": 644.7548291233284,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -2824,7 +2824,7 @@
     "pool": {
       "__id__": 48
     },
-    "maxFishOnField": 100,
+    "maxFishOnField": 12,
     "posSpawnStartGame": [
       {
         "__id__": 49
@@ -3507,7 +3507,7 @@
     "pool": {
       "__id__": 83
     },
-    "maxFishOnField": 14,
+    "maxFishOnField": 10,
     "posSpawnStartGame": [
       {
         "__id__": 84
@@ -9177,16 +9177,16 @@
         "__id__": 267
       },
       {
-        "__id__": 271
+        "__id__": 272
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 274
+        "__id__": 275
       },
       {
-        "__id__": 275
+        "__id__": 276
       }
     ],
     "_prefab": null,
@@ -9236,7 +9236,7 @@
         "__id__": 269
       },
       {
-        "__id__": 270
+        "__id__": 271
       }
     ],
     "_prefab": null,
@@ -9325,9 +9325,18 @@
     "defaultSkin": "skin1",
     "defaultAnimation": "idle",
     "_enableBatch": false,
-    "_sockets": [],
+    "_sockets": [
+      {
+        "__id__": 270
+      }
+    ],
     "_debugMesh": false,
     "_id": "bffOzdwJFDuoSU7m1qo7nU"
+  },
+  {
+    "__type__": "sp.Skeleton.SpineSocket",
+    "path": "",
+    "target": null
   },
   {
     "__type__": "cc.PolygonCollider2D",
@@ -9346,74 +9355,29 @@
     "_restitution": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": -0.20000000000000107,
+      "y": 0.20000000000000284
     },
     "_points": [
       {
         "__type__": "cc.Vec2",
-        "x": 40.8,
-        "y": 19.7
+        "x": -64.27,
+        "y": -42.32
       },
       {
         "__type__": "cc.Vec2",
-        "x": 26.9,
-        "y": 9.6
+        "x": -64.27,
+        "y": 41.52
       },
       {
         "__type__": "cc.Vec2",
-        "x": -21.2,
-        "y": -2.1
+        "x": 61.870000000000005,
+        "y": 41.52
       },
       {
         "__type__": "cc.Vec2",
-        "x": -37.5,
-        "y": 5.6
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": -5.5,
-        "y": 24.9
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": -28.7,
-        "y": 28.3
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": -38,
-        "y": 35.4
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": -31,
-        "y": 50.3
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": -13.9,
-        "y": 65.5
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": 17.4,
-        "y": 74
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": 52,
-        "y": 71.4
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": 62.6,
-        "y": 54.7
-      },
-      {
-        "__type__": "cc.Vec2",
-        "x": 52.1,
-        "y": 30.9
+        "x": 61.870000000000005,
+        "y": -42.32
       }
     ],
     "_id": "23ir85KUVIkKWgCitnRfMq"
@@ -9429,17 +9393,17 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 272
+        "__id__": 273
       },
       {
-        "__id__": 273
+        "__id__": 274
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -44,
-      "y": 55,
+      "x": -43.096,
+      "y": 18.85,
       "z": 0
     },
     "_lrot": {
@@ -9470,7 +9434,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 271
+      "__id__": 272
     },
     "_enabled": true,
     "__prefab": null,
@@ -9491,7 +9455,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 271
+      "__id__": 272
     },
     "_enabled": true,
     "__prefab": null,
@@ -9543,7 +9507,7 @@
       "__id__": 269
     },
     "mouth": {
-      "__id__": 271
+      "__id__": 272
     },
     "_id": "b6QNasBlNG2qmkfhvSAFCH"
   },
@@ -9556,23 +9520,23 @@
     },
     "_children": [
       {
-        "__id__": 277
+        "__id__": 278
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 280
+        "__id__": 281
       },
       {
-        "__id__": 281
+        "__id__": 282
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 125,
+      "y": 76,
       "z": 0
     },
     "_lrot": {
@@ -9603,23 +9567,23 @@
     "_name": "Crown",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 276
+      "__id__": 277
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 278
+        "__id__": 279
       },
       {
-        "__id__": 279
+        "__id__": 280
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 42.136,
+      "y": 36.136,
       "z": 0
     },
     "_lrot": {
@@ -9650,7 +9614,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 277
+      "__id__": 278
     },
     "_enabled": true,
     "__prefab": null,
@@ -9671,7 +9635,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 277
+      "__id__": 278
     },
     "_enabled": true,
     "__prefab": null,
@@ -9709,7 +9673,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 276
+      "__id__": 277
     },
     "_enabled": true,
     "__prefab": null,
@@ -9730,7 +9694,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 276
+      "__id__": 277
     },
     "_enabled": true,
     "__prefab": null,
@@ -9777,17 +9741,17 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 283
+        "__id__": 284
       },
       {
-        "__id__": 284
+        "__id__": 285
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -16,
+      "y": -38,
       "z": 0
     },
     "_lrot": {
@@ -9818,7 +9782,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 282
+      "__id__": 283
     },
     "_enabled": true,
     "__prefab": null,
@@ -9839,7 +9803,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 282
+      "__id__": 283
     },
     "_enabled": true,
     "__prefab": null,
@@ -9906,10 +9870,10 @@
     "_enabled": true,
     "__prefab": null,
     "mouthPoint": {
-      "__id__": 271
+      "__id__": 272
     },
     "fishNameScore": {
-      "__id__": 287
+      "__id__": 288
     },
     "action": null,
     "IndividualExp": 1,
@@ -9928,13 +9892,13 @@
     "_enabled": true,
     "__prefab": null,
     "nameFish": {
-      "__id__": 281
+      "__id__": 282
     },
     "scoreFish": {
-      "__id__": 284
+      "__id__": 285
     },
     "crownSprite": {
-      "__id__": 279
+      "__id__": 280
     },
     "_id": "72jXkabN5HYZ0oAPucGsYk"
   },
@@ -9951,7 +9915,7 @@
       "__id__": 263
     },
     "eatHitBox": {
-      "__id__": 273
+      "__id__": 274
     },
     "_id": "16BuqXm79Dbo0jEEfpjJ5P"
   },
@@ -9965,7 +9929,7 @@
     "_enabled": true,
     "__prefab": null,
     "size": {
-      "__id__": 290
+      "__id__": 291
     },
     "width": 25,
     "height": 25,
@@ -9984,7 +9948,7 @@
       "__id__": 5
     },
     "Size": {
-      "__id__": 285
+      "__id__": 286
     },
     "currentSize": 1,
     "_id": "23OUnuh2dMZJp86TjH+YyV"
@@ -10089,7 +10053,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 293
+        "__id__": 294
       }
     ],
     "_prefab": null,
@@ -10127,7 +10091,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 292
+      "__id__": 293
     },
     "_enabled": true,
     "__prefab": null,
@@ -10160,7 +10124,7 @@
     "instance": null,
     "targetOverrides": [
       {
-        "__id__": 295
+        "__id__": 296
       }
     ]
   },
@@ -10175,7 +10139,7 @@
     ],
     "target": null,
     "targetInfo": {
-      "__id__": 296
+      "__id__": 297
     }
   },
   {
@@ -10187,22 +10151,22 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 298
-    },
-    "shadows": {
       "__id__": 299
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 300
     },
-    "fog": {
+    "_skybox": {
       "__id__": 301
     },
-    "octree": {
+    "fog": {
       "__id__": 302
     },
-    "lightProbeInfo": {
+    "octree": {
       "__id__": 303
+    },
+    "lightProbeInfo": {
+      "__id__": 304
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false

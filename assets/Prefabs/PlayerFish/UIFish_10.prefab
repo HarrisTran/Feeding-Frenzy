@@ -257,7 +257,7 @@
       "__expectedType__": "sp.SkeletonData"
     },
     "_premultipliedAlpha": true,
-    "defaultSkin": "skin2",
+    "defaultSkin": "skin1",
     "defaultAnimation": "idle",
     "_enableBatch": false,
     "_sockets": [
