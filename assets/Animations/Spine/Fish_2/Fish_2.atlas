@@ -1,0 +1,76 @@
+
+Fish_2.png
+size: 1074,339
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fish2_1/Body
+  rotate: false
+  xy: 2, 2
+  size: 348, 335
+  orig: 348, 335
+  offset: 0, 0
+  index: -1
+Fish2_1/Fin
+  rotate: false
+  xy: 982, 133
+  size: 89, 85
+  orig: 89, 85
+  offset: 0, 0
+  index: -1
+Fish2_1/Layer 2
+  rotate: false
+  xy: 701, 192
+  size: 279, 145
+  orig: 279, 145
+  offset: 0, 0
+  index: -1
+Fish2_1/Pilple
+  rotate: false
+  xy: 701, 21
+  size: 19, 22
+  orig: 21, 24
+  offset: 1, 1
+  index: -1
+Fish2_2/Pilple
+  rotate: false
+  xy: 701, 21
+  size: 19, 22
+  orig: 21, 24
+  offset: 1, 1
+  index: -1
+Fish2_1/Teeth
+  rotate: true
+  xy: 982, 220
+  size: 117, 90
+  orig: 119, 92
+  offset: 1, 1
+  index: -1
+Fish2_2/Teeth
+  rotate: true
+  xy: 982, 220
+  size: 117, 90
+  orig: 119, 92
+  offset: 1, 1
+  index: -1
+Fish2_2/Body
+  rotate: false
+  xy: 352, 3
+  size: 347, 334
+  orig: 349, 336
+  offset: 1, 1
+  index: -1
+Fish2_2/Fin
+  rotate: false
+  xy: 982, 49
+  size: 86, 82
+  orig: 88, 84
+  offset: 1, 1
+  index: -1
+Fish2_2/Layer 2
+  rotate: false
+  xy: 701, 45
+  size: 279, 145
+  orig: 281, 147
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,187 @@
+
+bloodvfx.png
+size: 1983,1889
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blood splash_0
+  rotate: false
+  xy: 2, 1696
+  size: 252, 191
+  orig: 600, 600
+  offset: 347, 305
+  index: -1
+Blood splash_1
+  rotate: false
+  xy: 2, 1696
+  size: 252, 191
+  orig: 600, 600
+  offset: 347, 305
+  index: -1
+Blood splash_10
+  rotate: false
+  xy: 494, 38
+  size: 505, 489
+  orig: 600, 600
+  offset: 86, 94
+  index: -1
+Blood splash_14
+  rotate: false
+  xy: 1001, 2
+  size: 589, 493
+  orig: 600, 600
+  offset: 0, 84
+  index: -1
+Blood splash_17
+  rotate: false
+  xy: 1401, 497
+  size: 486, 479
+  orig: 600, 600
+  offset: 87, 104
+  index: -1
+Blood splash_2
+  rotate: false
+  xy: 256, 1659
+  size: 438, 228
+  orig: 600, 600
+  offset: 161, 282
+  index: -1
+Blood splash_20
+  rotate: false
+  xy: 478, 1196
+  size: 441, 413
+  orig: 600, 600
+  offset: 109, 118
+  index: -1
+Blood splash_21
+  rotate: false
+  xy: 921, 1178
+  size: 444, 427
+  orig: 600, 600
+  offset: 103, 109
+  index: -1
+Blood splash_22
+  rotate: true
+  xy: 926, 529
+  size: 447, 473
+  orig: 600, 600
+  offset: 97, 100
+  index: -1
+Blood splash_23
+  rotate: false
+  xy: 2, 915
+  size: 456, 440
+  orig: 600, 600
+  offset: 86, 96
+  index: -1
+Blood splash_24
+  rotate: false
+  xy: 1367, 978
+  size: 452, 435
+  orig: 600, 600
+  offset: 74, 90
+  index: -1
+Blood splash_3
+  rotate: false
+  xy: 696, 1611
+  size: 468, 276
+  orig: 600, 600
+  offset: 132, 247
+  index: -1
+Blood splash_4
+  rotate: false
+  xy: 1166, 1607
+  size: 468, 280
+  orig: 600, 600
+  offset: 132, 251
+  index: -1
+Blood splash_5
+  rotate: false
+  xy: 2, 1357
+  size: 474, 300
+  orig: 600, 600
+  offset: 126, 237
+  index: -1
+Blood splash_6
+  rotate: true
+  xy: 1636, 1415
+  size: 472, 345
+  orig: 600, 600
+  offset: 126, 203
+  index: -1
+Blood splash_7
+  rotate: true
+  xy: 1636, 1415
+  size: 472, 345
+  orig: 600, 600
+  offset: 126, 203
+  index: -1
+Blood splash_8
+  rotate: false
+  xy: 460, 734
+  size: 464, 442
+  orig: 600, 600
+  offset: 132, 119
+  index: -1
+Blood splash_9
+  rotate: false
+  xy: 2, 244
+  size: 490, 488
+  orig: 600, 600
+  offset: 106, 83
+  index: -1
+
+bloodvfx2.png
+size: 1618,1025
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blood splash_11
+  rotate: false
+  xy: 1070, 514
+  size: 546, 509
+  orig: 600, 600
+  offset: 44, 74
+  index: -1
+Blood splash_12
+  rotate: false
+  xy: 580, 2
+  size: 583, 510
+  orig: 600, 600
+  offset: 7, 73
+  index: -1
+Blood splash_13
+  rotate: false
+  xy: 580, 2
+  size: 583, 510
+  orig: 600, 600
+  offset: 7, 73
+  index: -1
+Blood splash_15
+  rotate: false
+  xy: 2, 526
+  size: 560, 497
+  orig: 600, 600
+  offset: 19, 86
+  index: -1
+Blood splash_16
+  rotate: false
+  xy: 2, 18
+  size: 576, 506
+  orig: 600, 600
+  offset: 0, 77
+  index: -1
+Blood splash_18
+  rotate: false
+  xy: 564, 526
+  size: 504, 497
+  orig: 600, 600
+  offset: 63, 86
+  index: -1
+Blood splash_19
+  rotate: false
+  xy: 564, 526
+  size: 504, 497
+  orig: 600, 600
+  offset: 63, 86
+  index: -1

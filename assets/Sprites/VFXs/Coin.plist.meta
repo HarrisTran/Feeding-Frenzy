@@ -1,0 +1,63 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "e846b646-1788-4ca5-bb8d-406d4b49b04d",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "f99da": {
+      "importer": "sprite-frame",
+      "uuid": "e846b646-1788-4ca5-bb8d-406d4b49b04d@f99da",
+      "displayName": "",
+      "id": "f99da",
+      "name": "Coin",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 35,
+        "height": 35,
+        "rawWidth": 35,
+        "rawHeight": 35,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d652233b-2c7c-4735-a3a9-84d934a8140b@6c48a",
+        "atlasUuid": "e846b646-1788-4ca5-bb8d-406d4b49b04d"
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "Coin.png",
+    "format": 2,
+    "uuid": "e846b646-1788-4ca5-bb8d-406d4b49b04d",
+    "textureUuid": "d652233b-2c7c-4735-a3a9-84d934a8140b@6c48a"
+  }
+}

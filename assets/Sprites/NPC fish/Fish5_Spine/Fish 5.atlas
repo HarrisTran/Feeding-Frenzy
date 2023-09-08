@@ -1,0 +1,111 @@
+
+Fish 5.png
+size: 1169,164
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+basic/Body
+  rotate: false
+  xy: 2, 4
+  size: 283, 158
+  orig: 283, 158
+  offset: 0, 0
+  index: -1
+basic/Duoi
+  rotate: false
+  xy: 983, 80
+  size: 41, 82
+  orig: 41, 82
+  offset: 0, 0
+  index: -1
+basic/Mat
+  rotate: true
+  xy: 1050, 6
+  size: 74, 57
+  orig: 76, 59
+  offset: 1, 1
+  index: -1
+basic/Vay giua
+  rotate: true
+  xy: 929, 2
+  size: 70, 58
+  orig: 72, 60
+  offset: 1, 1
+  index: -1
+basic/Vay tren
+  rotate: true
+  xy: 853, 72
+  size: 90, 42
+  orig: 90, 42
+  offset: 0, 0
+  index: -1
+blue/Body
+  rotate: false
+  xy: 287, 6
+  size: 281, 156
+  orig: 283, 158
+  offset: 1, 1
+  index: -1
+blue/Duoi
+  rotate: false
+  xy: 1026, 82
+  size: 39, 80
+  orig: 41, 82
+  offset: 1, 1
+  index: -1
+blue/Mat
+  rotate: false
+  xy: 853, 11
+  size: 74, 59
+  orig: 76, 61
+  offset: 1, 1
+  index: -1
+blue/Vay giua
+  rotate: true
+  xy: 1108, 92
+  size: 70, 58
+  orig: 72, 60
+  offset: 1, 1
+  index: -1
+blue/Vay tren
+  rotate: true
+  xy: 897, 74
+  size: 88, 41
+  orig: 90, 43
+  offset: 1, 1
+  index: -1
+purple/Body
+  rotate: false
+  xy: 570, 6
+  size: 281, 156
+  orig: 283, 158
+  offset: 1, 1
+  index: -1
+purple/Duoi
+  rotate: false
+  xy: 1067, 82
+  size: 39, 80
+  orig: 41, 82
+  offset: 1, 1
+  index: -1
+purple/Mat
+  rotate: true
+  xy: 989, 4
+  size: 74, 59
+  orig: 76, 61
+  offset: 1, 1
+  index: -1
+purple/Vay giua
+  rotate: true
+  xy: 1109, 20
+  size: 70, 58
+  orig: 72, 60
+  offset: 1, 1
+  index: -1
+purple/Vay tren
+  rotate: true
+  xy: 940, 74
+  size: 88, 41
+  orig: 90, 43
+  offset: 1, 1
+  index: -1

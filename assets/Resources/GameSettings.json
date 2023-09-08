@@ -1,0 +1,121 @@
+{
+    "fishManager": {
+        "fishes":[
+            {
+                "id" : "Fish1",
+                "speed" : [100,0,200,40,50],
+                "expReward" : 10,
+                "goldReward" : 10,
+                "exp": 1
+            },
+            {
+                "id" : "Fish2",
+                "speed" : [110,0,300,40,50],
+                "expReward" : 10,
+                "goldReward" : 10,
+                "exp": 2
+            },
+            {
+                "id" : "Fish3",
+                "speed" : [130,0,400,40,50],
+                "expReward" : 10,
+                "goldReward" : 10,
+                "exp": 3
+            },
+            {
+                "id" : "FishIO",
+                "speed" : [150,300,300,40,50],
+                "expReward" : 10,
+                "goldReward" : 10,
+                "exp": 1
+                
+            },
+            {
+                "id" : "Fish5",
+                "speed" : [130,250,400,40,50],
+                "expReward" : 10,
+                "goldReward" : 10,
+                "exp": 3
+            },
+            {
+                "id" : "Fish6",
+                "speed" : [140,250,400,40,50],
+                "expReward" : 10,
+                "goldReward" : 10,
+                "exp": 1
+            },
+            {
+                "id" : "Fish7",
+                "speed" : [300,250,600,40,50],
+                "expReward" : 10,
+                "goldReward" : 10,
+                "exp": 4
+            }
+        ],
+        "individualFishSpawners":[
+            {
+                "fishId": "Fish1",
+                "startDelay" : 1,
+                "stopDelay" : -1,
+                "cooldown": 3
+            },
+            {
+                "fishId": "Fish2",
+                "startDelay" : 1,
+                "stopDelay" : -1,
+                "cooldown": 5
+            },
+            {
+                "fishId": "Fish3",
+                "startDelay" : 1,
+                "stopDelay" : -1,
+                "cooldown": 5
+            },
+            {
+                "fishId": "Fish4",
+                "startDelay" : 3,
+                "stopDelay" : -1,
+                "cooldown": 7
+            },
+            {
+                "fishId": "Fish5",
+                "startDelay" : 2,
+                "stopDelay" : -1,
+                "cooldown": 9
+            },
+            {
+                "fishId": "Fish6",
+                "startDelay" : 1,
+                "stopDelay" : -1,
+                "cooldown": 11
+            },
+            {
+                "fishId": "FishIO",
+                "startDelay" : 100000,
+                "stopDelay" : 1,
+                "cooldown": 100000
+            }
+        ]
+    },
+    "storeManager":{
+        "hats":[
+            {"id": "Hat_0", "price": 100},
+            {"id": "Hat_1", "price": 150},
+            {"id": "Hat_2", "price": 200},
+            {"id": "Hat_3", "price": 250},
+            {"id": "Hat_4", "price": 300},
+            {"id": "Hat_5", "price": 350}
+        ],
+        "fishes":[
+            {"id": "Fish_1", "price": 1000},
+            {"id": "Fish_2", "price": 1200},
+            {"id": "Fish_6", "price": 1500},
+            {"id": "Fish_8", "price": 1800},
+            {"id": "Fish_9", "price": 2000},
+            {"id": "Fish_10", "price": 5000},
+            {"id": "Fish_14", "price": 1500},
+            {"id": "Fish_16", "price": 2000}
+            
+        ]
+    }
+}

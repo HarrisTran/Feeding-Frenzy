@@ -1,0 +1,55 @@
+{
+  "__version__": "1.0.4",
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "PLAYER"
+      },
+      {
+        "index": 2,
+        "name": "FISH"
+      },
+      {
+        "index": 3,
+        "name": "BOUND"
+      },
+      {
+        "index": 4,
+        "name": "VISION"
+      },
+      {
+        "index": 5,
+        "name": "MOUTH"
+      },
+      {
+        "index": 6,
+        "name": "CAMERA"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 20,
+      "2": 54,
+      "3": 64,
+      "4": 22,
+      "5": 4,
+      "6": 8
+    }
+  },
+  "layer": [
+    {
+      "name": "POPUP",
+      "value": 524288
+    }
+  ]
+}

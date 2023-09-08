@@ -1,0 +1,76 @@
+
+Dump fish 2.png
+size: 782,505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fish15 part/Layer 1
+  rotate: true
+  xy: 612, 385
+  size: 118, 164
+  orig: 118, 164
+  offset: 0, 0
+  index: -1
+Fish15 part/Pilple
+  rotate: false
+  xy: 2, 2
+  size: 12, 12
+  orig: 14, 14
+  offset: 1, 1
+  index: -1
+Fish15_2 part/Pilple
+  rotate: false
+  xy: 2, 2
+  size: 12, 12
+  orig: 14, 14
+  offset: 1, 1
+  index: -1
+Fish15 part/Side fin
+  rotate: true
+  xy: 612, 23
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+Fish15 part/eye
+  rotate: true
+  xy: 2, 16
+  size: 487, 304
+  orig: 487, 304
+  offset: 0, 0
+  index: -1
+Fish15 part/side fin 1 copy
+  rotate: false
+  xy: 612, 197
+  size: 146, 68
+  orig: 146, 68
+  offset: 0, 0
+  index: -1
+Fish15_2 part/Layer 1
+  rotate: true
+  xy: 612, 267
+  size: 116, 162
+  orig: 118, 164
+  offset: 1, 1
+  index: -1
+Fish15_2 part/Side fin
+  rotate: true
+  xy: 698, 25
+  size: 102, 82
+  orig: 104, 84
+  offset: 1, 1
+  index: -1
+Fish15_2 part/eye
+  rotate: true
+  xy: 308, 18
+  size: 485, 302
+  orig: 487, 304
+  offset: 1, 1
+  index: -1
+Fish15_2 part/side fin 1 copy
+  rotate: false
+  xy: 612, 129
+  size: 144, 66
+  orig: 146, 68
+  offset: 1, 1
+  index: -1

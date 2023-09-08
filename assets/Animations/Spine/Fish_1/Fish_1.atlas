@@ -1,0 +1,76 @@
+
+Fish_1.png
+size: 1416,425
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blue/Body
+  rotate: false
+  xy: 2, 2
+  size: 632, 421
+  orig: 632, 421
+  offset: 0, 0
+  index: -1
+Blue/Inner ,outh
+  rotate: true
+  xy: 1268, 321
+  size: 102, 146
+  orig: 102, 146
+  offset: 0, 0
+  index: -1
+Blue/Layer 12
+  rotate: true
+  xy: 1268, 136
+  size: 81, 87
+  orig: 81, 87
+  offset: 0, 0
+  index: -1
+Blue/Pilple
+  rotate: false
+  xy: 1355, 63
+  size: 37, 20
+  orig: 40, 22
+  offset: 1, 1
+  index: -1
+Purple/Pilple
+  rotate: false
+  xy: 1355, 63
+  size: 37, 20
+  orig: 40, 22
+  offset: 1, 1
+  index: -1
+Blue/under teeth
+  rotate: true
+  xy: 1357, 152
+  size: 65, 52
+  orig: 67, 54
+  offset: 1, 1
+  index: -1
+Purple/Body
+  rotate: false
+  xy: 636, 4
+  size: 630, 419
+  orig: 632, 421
+  offset: 1, 1
+  index: -1
+Purple/Inner ,outh
+  rotate: true
+  xy: 1268, 219
+  size: 100, 144
+  orig: 102, 146
+  offset: 1, 1
+  index: -1
+Purple/Layer 12
+  rotate: true
+  xy: 1268, 55
+  size: 79, 85
+  orig: 81, 87
+  offset: 1, 1
+  index: -1
+Purple/under teeth
+  rotate: true
+  xy: 1357, 85
+  size: 65, 52
+  orig: 67, 54
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,111 @@
+
+Fish_10.png
+size: 1836,286
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Whale part 1/Fin
+  rotate: true
+  xy: 1708, 122
+  size: 79, 100
+  orig: 81, 102
+  offset: 1, 1
+  index: -1
+Whale part 1/ori1
+  rotate: false
+  xy: 572, 6
+  size: 566, 278
+  orig: 568, 280
+  offset: 1, 1
+  index: -1
+Whale part 2/Fin
+  rotate: true
+  xy: 1708, 41
+  size: 79, 100
+  orig: 81, 102
+  offset: 1, 1
+  index: -1
+Whale part 2/ori1
+  rotate: false
+  xy: 1140, 6
+  size: 566, 278
+  orig: 568, 280
+  offset: 1, 1
+  index: -1
+Whale part/Fin
+  rotate: true
+  xy: 1708, 203
+  size: 81, 102
+  orig: 81, 102
+  offset: 0, 0
+  index: -1
+Whale part/Layer 1
+  rotate: false
+  xy: 1775, 2
+  size: 59, 37
+  orig: 61, 39
+  offset: 1, 1
+  index: -1
+Whale part 1/Layer 1
+  rotate: false
+  xy: 1775, 2
+  size: 59, 37
+  orig: 61, 39
+  offset: 1, 1
+  index: -1
+Whale part 2/Layer 1
+  rotate: false
+  xy: 1775, 2
+  size: 59, 37
+  orig: 61, 39
+  offset: 1, 1
+  index: -1
+Whale part/ori1
+  rotate: false
+  xy: 2, 4
+  size: 568, 280
+  orig: 568, 280
+  offset: 0, 0
+  index: -1
+Whale part/pilple
+  rotate: false
+  xy: 1812, 265
+  size: 19, 19
+  orig: 21, 21
+  offset: 1, 1
+  index: -1
+Whale part 1/pilple
+  rotate: false
+  xy: 1812, 265
+  size: 19, 19
+  orig: 21, 21
+  offset: 1, 1
+  index: -1
+Whale part 2/pilple
+  rotate: false
+  xy: 1812, 265
+  size: 19, 19
+  orig: 21, 21
+  offset: 1, 1
+  index: -1
+Whale part/teeth
+  rotate: false
+  xy: 1708, 2
+  size: 65, 37
+  orig: 67, 39
+  offset: 1, 1
+  index: -1
+Whale part 1/teeth
+  rotate: false
+  xy: 1708, 2
+  size: 65, 37
+  orig: 67, 39
+  offset: 1, 1
+  index: -1
+Whale part 2/teeth
+  rotate: false
+  xy: 1708, 2
+  size: 65, 37
+  orig: 67, 39
+  offset: 1, 1
+  index: -1

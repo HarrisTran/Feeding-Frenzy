@@ -1,0 +1,15 @@
+{
+    "username": "Rosie",
+    "userNote": "Khong lam ma doi co an",
+    "avatar" : "avatar_0",
+    "inventoryHats": [
+        {"id": "Hat_0"}
+    ],
+    "fishCollection":[
+        {"id": "Fish_1"}
+    ],
+    "equipedHat": "Hat_0",
+    "equipedFish": "Fish_1",
+    "bgIndex": 0,
+    "gold": 9000
+}

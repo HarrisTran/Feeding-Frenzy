@@ -1,0 +1,153 @@
+
+Nor 11.png
+size: 1248,538
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+basic/Body
+  rotate: true
+  xy: 848, 113
+  size: 423, 226
+  orig: 423, 226
+  offset: 0, 0
+  index: -1
+basic/Mat
+  rotate: false
+  xy: 1182, 110
+  size: 64, 64
+  orig: 66, 66
+  offset: 1, 1
+  index: -1
+blue/Mat
+  rotate: false
+  xy: 1182, 110
+  size: 64, 64
+  orig: 66, 66
+  offset: 1, 1
+  index: -1
+green/Mat
+  rotate: false
+  xy: 1182, 110
+  size: 64, 64
+  orig: 66, 66
+  offset: 1, 1
+  index: -1
+basic/Moi
+  rotate: false
+  xy: 1105, 7
+  size: 43, 60
+  orig: 45, 62
+  offset: 1, 1
+  index: -1
+basic/Vay duoi 1
+  rotate: false
+  xy: 1076, 69
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+basic/Vay duoi 2
+  rotate: false
+  xy: 468, 8
+  size: 230, 142
+  orig: 232, 144
+  offset: 1, 1
+  index: -1
+basic/Vay giua
+  rotate: true
+  xy: 700, 2
+  size: 93, 106
+  orig: 95, 108
+  offset: 1, 1
+  index: -1
+basic/Vay tren
+  rotate: true
+  xy: 1076, 176
+  size: 360, 156
+  orig: 360, 156
+  offset: 0, 0
+  index: -1
+blue/Body
+  rotate: false
+  xy: 2, 309
+  size: 421, 227
+  orig: 423, 229
+  offset: 1, 1
+  index: -1
+blue/Moi
+  rotate: false
+  xy: 1182, 48
+  size: 44, 60
+  orig: 46, 62
+  offset: 1, 1
+  index: -1
+blue/Vay duoi 1
+  rotate: false
+  xy: 722, 203
+  size: 102, 104
+  orig: 104, 106
+  offset: 1, 1
+  index: -1
+blue/Vay duoi 2
+  rotate: false
+  xy: 2, 7
+  size: 231, 143
+  orig: 233, 145
+  offset: 1, 1
+  index: -1
+blue/Vay giua
+  rotate: true
+  xy: 826, 18
+  size: 93, 107
+  orig: 95, 109
+  offset: 1, 1
+  index: -1
+blue/Vay tren
+  rotate: false
+  xy: 2, 152
+  size: 358, 155
+  orig: 360, 157
+  offset: 1, 1
+  index: -1
+green/Body
+  rotate: false
+  xy: 425, 309
+  size: 421, 227
+  orig: 423, 229
+  offset: 1, 1
+  index: -1
+green/Moi
+  rotate: true
+  xy: 1043, 23
+  size: 44, 60
+  orig: 46, 62
+  offset: 1, 1
+  index: -1
+green/Vay duoi 1
+  rotate: false
+  xy: 722, 97
+  size: 102, 104
+  orig: 104, 106
+  offset: 1, 1
+  index: -1
+green/Vay duoi 2
+  rotate: false
+  xy: 235, 7
+  size: 231, 143
+  orig: 233, 145
+  offset: 1, 1
+  index: -1
+green/Vay giua
+  rotate: true
+  xy: 935, 18
+  size: 93, 106
+  orig: 95, 108
+  offset: 1, 1
+  index: -1
+green/Vay tren
+  rotate: false
+  xy: 362, 152
+  size: 358, 155
+  orig: 360, 157
+  offset: 1, 1
+  index: -1

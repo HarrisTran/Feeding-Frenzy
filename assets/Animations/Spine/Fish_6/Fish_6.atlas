@@ -1,0 +1,62 @@
+
+Fish_6.png
+size: 582,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 100
+  size: 578, 294
+  orig: 578, 294
+  offset: 0, 0
+  index: -1
+Glowing light
+  rotate: false
+  xy: 385, 11
+  size: 33, 15
+  orig: 35, 17
+  offset: 1, 1
+  index: -1
+Layer 32
+  rotate: false
+  xy: 505, 63
+  size: 57, 35
+  orig: 59, 37
+  offset: 1, 1
+  index: -1
+Layer 32 copy
+  rotate: false
+  xy: 385, 28
+  size: 70, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+Layer 36
+  rotate: false
+  xy: 505, 23
+  size: 34, 38
+  orig: 36, 40
+  offset: 1, 1
+  index: -1
+Under fin
+  rotate: false
+  xy: 457, 10
+  size: 46, 88
+  orig: 46, 88
+  offset: 0, 0
+  index: -1
+Under fin2
+  rotate: false
+  xy: 240, 2
+  size: 143, 96
+  orig: 143, 96
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 2, 5
+  size: 93, 236
+  orig: 93, 236
+  offset: 0, 0
+  index: -1

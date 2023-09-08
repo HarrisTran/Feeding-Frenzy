@@ -1,0 +1,90 @@
+
+Fish_9.png
+size: 1831,254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fish9_1/Pilple
+  rotate: false
+  xy: 1794, 169
+  size: 29, 26
+  orig: 31, 28
+  offset: 1, 1
+  index: -1
+Fish9_2/Pilple
+  rotate: false
+  xy: 1794, 169
+  size: 29, 26
+  orig: 31, 28
+  offset: 1, 1
+  index: -1
+Fish9_3/Pilple
+  rotate: false
+  xy: 1794, 169
+  size: 29, 26
+  orig: 31, 28
+  offset: 1, 1
+  index: -1
+Fish9_1/Side fin
+  rotate: true
+  xy: 1684, 176
+  size: 76, 108
+  orig: 76, 108
+  offset: 0, 0
+  index: -1
+Fish9_1/eye ball
+  rotate: true
+  xy: 1794, 197
+  size: 55, 35
+  orig: 57, 37
+  offset: 1, 1
+  index: -1
+Fish9_2/eye ball
+  rotate: true
+  xy: 1794, 197
+  size: 55, 35
+  orig: 57, 37
+  offset: 1, 1
+  index: -1
+Fish9_3/eye ball
+  rotate: true
+  xy: 1794, 197
+  size: 55, 35
+  orig: 57, 37
+  offset: 1, 1
+  index: -1
+Fish9_1/ori1
+  rotate: false
+  xy: 2, 2
+  size: 560, 250
+  orig: 560, 250
+  offset: 0, 0
+  index: -1
+Fish9_2/Side fin
+  rotate: true
+  xy: 1684, 100
+  size: 74, 106
+  orig: 76, 108
+  offset: 1, 1
+  index: -1
+Fish9_2/ori1
+  rotate: false
+  xy: 564, 4
+  size: 558, 248
+  orig: 560, 250
+  offset: 1, 1
+  index: -1
+Fish9_3/Side fin
+  rotate: true
+  xy: 1684, 24
+  size: 74, 106
+  orig: 76, 108
+  offset: 1, 1
+  index: -1
+Fish9_3/ori1
+  rotate: false
+  xy: 1124, 4
+  size: 558, 248
+  orig: 560, 250
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,94 @@
+{
+"skeleton": {
+	"hash": "tDlXSc4WZqRixV5gAHRc+YEj6Ss",
+	"spine": "3.8.75",
+	"x": -225,
+	"y": -172,
+	"width": 300,
+	"height": 300,
+	"fps": 45,
+	"images": "./VFX/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "VFX", "parent": "root", "x": -75, "y": -22, "scaleX": 0.5, "scaleY": 0.5 }
+],
+"slots": [
+	{ "name": "Blood splash_0", "bone": "VFX", "attachment": "Blood splash_0" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Blood splash_0": {
+				"Blood splash_0": { "width": 600, "height": 600 },
+				"Blood splash_1": { "width": 600, "height": 600 },
+				"Blood splash_2": { "width": 600, "height": 600 },
+				"Blood splash_3": { "width": 600, "height": 600 },
+				"Blood splash_4": { "width": 600, "height": 600 },
+				"Blood splash_5": { "width": 600, "height": 600 },
+				"Blood splash_6": { "width": 600, "height": 600 },
+				"Blood splash_7": { "width": 600, "height": 600 },
+				"Blood splash_8": { "width": 600, "height": 600 },
+				"Blood splash_9": { "width": 600, "height": 600 },
+				"Blood splash_10": { "width": 600, "height": 600 },
+				"Blood splash_11": { "width": 600, "height": 600 },
+				"Blood splash_12": { "width": 600, "height": 600 },
+				"Blood splash_13": { "width": 600, "height": 600 },
+				"Blood splash_14": { "width": 600, "height": 600 },
+				"Blood splash_15": { "width": 600, "height": 600 },
+				"Blood splash_16": { "width": 600, "height": 600 },
+				"Blood splash_17": { "width": 600, "height": 600 },
+				"Blood splash_18": { "width": 600, "height": 600 },
+				"Blood splash_19": { "width": 600, "height": 600 },
+				"Blood splash_20": { "width": 600, "height": 600 },
+				"Blood splash_21": { "width": 600, "height": 600 },
+				"Blood splash_22": { "width": 600, "height": 600 },
+				"Blood splash_23": { "width": 600, "height": 600 },
+				"Blood splash_24": { "width": 600, "height": 600 }
+			}
+		}
+	}
+],
+"events": {
+	"blood_vfx": {}
+},
+"animations": {
+	"bloodvfx": {
+		"slots": {
+			"Blood splash_0": {
+				"attachment": [
+					{ "time": 0.0222, "name": "Blood splash_1" },
+					{ "time": 0.0444, "name": "Blood splash_2" },
+					{ "time": 0.0667, "name": "Blood splash_3" },
+					{ "time": 0.0889, "name": "Blood splash_4" },
+					{ "time": 0.1111, "name": "Blood splash_5" },
+					{ "time": 0.1333, "name": "Blood splash_6" },
+					{ "time": 0.1556, "name": "Blood splash_7" },
+					{ "time": 0.1778, "name": "Blood splash_8" },
+					{ "time": 0.2, "name": "Blood splash_9" },
+					{ "time": 0.2222, "name": "Blood splash_10" },
+					{ "time": 0.2444, "name": "Blood splash_11" },
+					{ "time": 0.2667, "name": "Blood splash_12" },
+					{ "time": 0.2889, "name": "Blood splash_13" },
+					{ "time": 0.3111, "name": "Blood splash_14" },
+					{ "time": 0.3333, "name": "Blood splash_15" },
+					{ "time": 0.3556, "name": "Blood splash_16" },
+					{ "time": 0.3778, "name": "Blood splash_17" },
+					{ "time": 0.4, "name": "Blood splash_18" },
+					{ "time": 0.4222, "name": "Blood splash_19" },
+					{ "time": 0.4444, "name": "Blood splash_20" },
+					{ "time": 0.4667, "name": "Blood splash_21" },
+					{ "time": 0.4889, "name": "Blood splash_22" },
+					{ "time": 0.5111, "name": "Blood splash_23" },
+					{ "time": 0.5333, "name": "Blood splash_24" }
+				]
+			}
+		},
+		"events": [
+			{ "name": "blood_vfx" }
+		]
+	}
+}
+}

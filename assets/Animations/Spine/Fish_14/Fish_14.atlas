@@ -1,0 +1,153 @@
+
+Fish_14.png
+size: 1820,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fish14_1/Body
+  rotate: false
+  xy: 506, 153
+  size: 539, 129
+  orig: 539, 129
+  offset: 0, 0
+  index: -1
+Fish14_1/Under fin
+  rotate: true
+  xy: 1702, 11
+  size: 271, 116
+  orig: 271, 116
+  offset: 0, 0
+  index: -1
+Fish14_1/Upper fin
+  rotate: false
+  xy: 2, 124
+  size: 167, 158
+  orig: 167, 158
+  offset: 0, 0
+  index: -1
+Fish14_1/Upper fin 2
+  rotate: false
+  xy: 506, 29
+  size: 160, 122
+  orig: 160, 122
+  offset: 0, 0
+  index: -1
+Fish14_1/eye 1
+  rotate: true
+  xy: 939, 9
+  size: 47, 36
+  orig: 49, 38
+  offset: 1, 1
+  index: -1
+Fish14_1/eye ball
+  rotate: false
+  xy: 939, 98
+  size: 53, 53
+  orig: 55, 55
+  offset: 1, 1
+  index: -1
+Fish14_2/eye ball
+  rotate: false
+  xy: 939, 98
+  size: 53, 53
+  orig: 55, 55
+  offset: 1, 1
+  index: -1
+Fish14_3/eye ball
+  rotate: false
+  xy: 939, 98
+  size: 53, 53
+  orig: 55, 55
+  offset: 1, 1
+  index: -1
+Fish14_1/pilple
+  rotate: true
+  xy: 994, 115
+  size: 36, 35
+  orig: 38, 37
+  offset: 1, 1
+  index: -1
+Fish14_2/pilple
+  rotate: true
+  xy: 994, 115
+  size: 36, 35
+  orig: 38, 37
+  offset: 1, 1
+  index: -1
+Fish14_3/pilple
+  rotate: true
+  xy: 994, 115
+  size: 36, 35
+  orig: 38, 37
+  offset: 1, 1
+  index: -1
+Fish14_2/Body
+  rotate: false
+  xy: 1047, 155
+  size: 537, 127
+  orig: 539, 129
+  offset: 1, 1
+  index: -1
+Fish14_2/Under fin
+  rotate: false
+  xy: 668, 37
+  size: 269, 114
+  orig: 271, 116
+  offset: 1, 1
+  index: -1
+Fish14_2/Upper fin
+  rotate: false
+  xy: 339, 126
+  size: 165, 156
+  orig: 167, 158
+  offset: 1, 1
+  index: -1
+Fish14_2/Upper fin 2
+  rotate: false
+  xy: 171, 4
+  size: 158, 120
+  orig: 160, 122
+  offset: 1, 1
+  index: -1
+Fish14_2/eye 1
+  rotate: true
+  xy: 989, 48
+  size: 48, 37
+  orig: 50, 39
+  offset: 1, 1
+  index: -1
+Fish14_3/Body
+  rotate: false
+  xy: 1047, 26
+  size: 537, 127
+  orig: 539, 129
+  offset: 1, 1
+  index: -1
+Fish14_3/Under fin
+  rotate: true
+  xy: 1586, 9
+  size: 273, 114
+  orig: 275, 116
+  offset: 1, 1
+  index: -1
+Fish14_3/Upper fin
+  rotate: false
+  xy: 171, 126
+  size: 166, 156
+  orig: 168, 158
+  offset: 1, 1
+  index: -1
+Fish14_3/Upper fin 2
+  rotate: false
+  xy: 2, 2
+  size: 158, 120
+  orig: 160, 122
+  offset: 1, 1
+  index: -1
+Fish14_3/eye 1
+  rotate: false
+  xy: 939, 58
+  size: 48, 38
+  orig: 50, 40
+  offset: 1, 1
+  index: -1

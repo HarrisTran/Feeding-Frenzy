@@ -1,0 +1,821 @@
+{
+"skeleton": {
+	"hash": "tQoOd2pNz71gZMZtJq6GmTt+in8",
+	"spine": "3.8.75",
+	"x": -84.4,
+	"y": -61.36,
+	"width": 165.6,
+	"height": 119.24,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.75, "scaleY": 0.75, "color": "b91010ff" },
+	{ "name": "Character", "parent": "root", "scaleX": 0.4, "scaleY": 0.4 },
+	{
+		"name": "Body",
+		"parent": "Character",
+		"length": 30.14,
+		"rotation": 26.57,
+		"x": -26.3,
+		"y": -5.65,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Body2",
+		"parent": "Body",
+		"length": 63.96,
+		"rotation": 6.71,
+		"x": 37.1,
+		"y": 1.14,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Body3",
+		"parent": "Body2",
+		"length": 77.72,
+		"rotation": -5.98,
+		"x": 91.75,
+		"y": 1.75,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Body4",
+		"parent": "Body3",
+		"length": 88.81,
+		"rotation": 13.89,
+		"x": 117.08,
+		"y": -0.26,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Body5",
+		"parent": "Body3",
+		"length": 89.33,
+		"rotation": -87.38,
+		"x": 118.1,
+		"y": -17.71,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Body6",
+		"parent": "Body",
+		"length": 57.86,
+		"rotation": 177.29,
+		"x": -15.95,
+		"y": 4.62,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Body7",
+		"parent": "Body6",
+		"length": 74.28,
+		"rotation": -13.05,
+		"x": 96.26,
+		"y": 0.08,
+		"color": "0fcf7dff"
+	},
+	{ "name": "Mat", "parent": "Body", "length": 34.67, "rotation": 172.72, "x": -121.07, "y": 48.04 },
+	{
+		"name": "Mi mat",
+		"parent": "Mat",
+		"length": 19.4,
+		"rotation": -134.23,
+		"x": 26.69,
+		"y": -22.78,
+		"color": "ffffffff"
+	},
+	{ "name": "Trong mat", "parent": "Mat", "x": 31.7, "y": -7.63 },
+	{ "name": "Sung truoc", "parent": "Body", "length": 26.32, "rotation": 96.38, "x": -184.62, "y": 84.53 },
+	{ "name": "Sung sau", "parent": "Body", "length": 26.34, "rotation": 91.19, "x": -198.15, "y": 89.47 },
+	{ "name": "Vay duoi 1", "parent": "Body", "length": 82.03, "rotation": -61.21, "x": -77.91, "y": -85.93 },
+	{ "name": "Vay duoi 2", "parent": "Vay duoi 1", "length": 98.04, "rotation": 19.16, "x": 19.09, "y": 25.62 },
+	{ "name": "Vay duoi 3", "parent": "Vay duoi 1", "length": 75.49, "rotation": -9.7, "x": -23.91, "y": -35.91 },
+	{ "name": "Vay tren", "parent": "Body", "length": 99.05, "rotation": 42.38, "x": 1.45, "y": 72.34 },
+	{ "name": "Vay tren2", "parent": "Vay tren", "length": 87.75, "rotation": -2.28, "x": -30.09, "y": 74.75 },
+	{ "name": "Vay tren3", "parent": "Vay tren", "length": 101.16, "rotation": 3.65, "x": 17.96, "y": -67.15 },
+	{ "name": "Vay duoi 4", "parent": "Body", "length": 59.04, "rotation": -16.19, "x": 56.88, "y": -43.06 },
+	{
+		"name": "Vay giua",
+		"parent": "Body",
+		"length": 67.15,
+		"rotation": -6.79,
+		"x": -89.12,
+		"y": -8.77,
+		"color": "191decff"
+	},
+	{
+		"name": "Vay giua2",
+		"parent": "Vay giua",
+		"length": 68.92,
+		"rotation": 25.71,
+		"x": 1.14,
+		"y": 15.39,
+		"color": "191decff"
+	},
+	{
+		"name": "Vay giua3",
+		"parent": "Vay giua",
+		"length": 58.2,
+		"rotation": -26.29,
+		"x": -4.96,
+		"y": -22.35,
+		"color": "191decff"
+	},
+	{
+		"name": "Body8",
+		"parent": "Body7",
+		"length": 28.22,
+		"rotation": 20.87,
+		"x": 15.84,
+		"y": 23.42,
+		"color": "0fcf7dff"
+	},
+	{ "name": "Body9", "parent": "Body8", "x": -159.92, "y": 12.75, "color": "0fcf7dff" },
+	{ "name": "Body10", "parent": "Body9", "length": 82.58, "rotation": -49.33, "color": "0fcf7dff" },
+	{
+		"name": "basic/2/Rang tren",
+		"parent": "Body10",
+		"length": 26.77,
+		"rotation": 84.02,
+		"x": 200.88,
+		"y": 145.85,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Body11",
+		"parent": "Body9",
+		"length": 88.89,
+		"rotation": 0.64,
+		"x": 182.7,
+		"y": 0.82,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "basic/2/Rang duoi",
+		"parent": "Body11",
+		"length": 32.7,
+		"rotation": -122.32,
+		"x": 79.29,
+		"y": 11.74,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "basic/2/Luoi",
+		"parent": "Body8",
+		"length": 42.4,
+		"rotation": 64.91,
+		"x": 76.17,
+		"y": -2.44,
+		"color": "0fcf7dff"
+	},
+	{
+		"name": "Hat",
+		"parent": "Body7",
+		"length": 65.36,
+		"rotation": -77.13,
+		"x": 40.31,
+		"y": -109.49,
+		"color": "0fcf7dff"
+	}
+],
+"slots": [
+	{ "name": "Vay tren", "bone": "Vay tren", "attachment": "basic/1/Vay tren" },
+	{ "name": "Vay duoi 2", "bone": "Vay duoi 4", "attachment": "basic/1/Vay duoi 2" },
+	{ "name": "Vay duoi 1", "bone": "Vay duoi 1", "attachment": "basic/1/Vay duoi 1" },
+	{ "name": "Sung sau", "bone": "Sung sau", "attachment": "basic/1/Sung sau" },
+	{ "name": "basic/2/Rang duoi", "bone": "basic/2/Rang duoi", "attachment": "basic/2/Rang duoi" },
+	{ "name": "Body", "bone": "Body", "attachment": "basic/1/Body" },
+	{ "name": "basic/2/Rang tren", "bone": "basic/2/Rang tren", "attachment": "basic/2/Rang tren" },
+	{ "name": "Sung truoc", "bone": "Sung truoc", "attachment": "basic/1/Sung truoc" },
+	{ "name": "Vay giua", "bone": "Vay giua", "attachment": "basic/1/Vay giua" },
+	{ "name": "Mat", "bone": "Mat", "attachment": "basic/1/Mat" },
+	{ "name": "Trong mat", "bone": "Trong mat", "attachment": "basic/1/Trong mat" },
+	{ "name": "Mi mat", "bone": "Mi mat", "attachment": "basic/1/Mi mat" },
+	{ "name": "basic/2/Luoi", "bone": "basic/2/Luoi", "attachment": "basic/2/Luoi" },
+	{ "name": "basic/1/Pirate_hat", "bone": "Hat" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"basic/2/Luoi": {
+				"basic/2/Luoi": { "x": 22.47, "y": 0.61, "rotation": 83.42, "width": 58, "height": 66 }
+			}
+		}
+	},
+	{
+		"name": "skin1",
+		"attachments": {
+			"Mat": {
+				"basic/1/Mat": { "x": 18.66, "y": -6.29, "rotation": 160.71, "width": 82, "height": 77 }
+			},
+			"basic/2/Rang tren": {
+				"basic/2/Rang tren": { "x": 36.75, "y": 14.62, "rotation": 113.63, "width": 55, "height": 52 }
+			},
+			"Body": {
+				"basic/1/Body": {
+					"name": "basic/2/Body",
+					"type": "mesh",
+					"uvs": [ 0.98396, 0.01852, 0.96977, 0.13913, 0.93619, 0.29211, 0.95819, 0.50006, 0.97827, 0.68992, 0.91967, 0.67077, 0.8713, 0.52473, 0.81642, 0.35905, 0.71376, 0.38655, 0.50838, 0.81969, 0.34244, 0.98148, 0.08948, 1, 0.02489, 1, 0.01095, 0.92359, 0.04146, 0.89983, 0.11377, 0.8934, 0.17445, 0.81501, 0.03665, 0.80235, 0, 0.75003, 0, 0.67475, 0.1035, 0.45758, 0.2536, 0.34638, 0.50587, 0.34829, 0.67793, 0.26657, 0.79263, 0.21209, 0.84299, 0.11201, 0.25079, 0.75144, 0.22031, 0.88354, 0.23616, 0.72611, 0.13618, 0.73606, 0.03499, 0.66006 ],
+					"triangles": [ 11, 27, 10, 27, 26, 10, 27, 16, 26, 11, 14, 15, 27, 11, 15, 27, 15, 16, 12, 13, 14, 12, 14, 11, 18, 30, 17, 17, 29, 16, 30, 19, 20, 18, 19, 30, 17, 30, 29, 26, 22, 9, 10, 26, 9, 22, 26, 28, 16, 28, 26, 16, 29, 28, 28, 20, 21, 29, 30, 20, 28, 29, 20, 22, 28, 21, 7, 24, 2, 6, 7, 2, 3, 6, 2, 5, 6, 3, 5, 3, 4, 1, 25, 0, 2, 25, 1, 24, 25, 2, 8, 23, 24, 7, 8, 24, 8, 9, 22, 8, 22, 23 ],
+					"vertices": [ 1, 5, 113.33, 1.4, 1, 2, 5, 77.32, -27.67, 0.98568, 6, -5.45, 81.01, 0.01432, 2, 5, 25.06, -58.78, 0.345, 6, 35.28, 35.84, 0.655, 1, 6, 109.56, 7.32, 1, 1, 6, 177.38, -18.71, 1, 1, 6, 154.7, -43.59, 1, 1, 6, 93.32, -39.58, 1, 2, 4, 84.2, -42.97, 0.21226, 6, 23.69, -35.02, 0.78774, 3, 4, 28.26, -25.8, 0.99358, 6, 3.97, -90.12, 0.00469, 3, 117.17, -26.85, 0.00173, 5, 3, -68.98, -100.52, 0.00565, 2, -19.66, -106.75, 0.59289, 7, -1.57, 111.43, 0.23245, 24, -104.9, 107.39, 0.04558, 28, -126.61, 95.26, 0.12343, 4, 2, -130.28, -119.82, 0.09821, 7, 108.3, 129.72, 0.18268, 24, 6.44, 110.56, 0.07812, 28, -15.25, 97.17, 0.64099, 1, 28, 108.42, 27.21, 1, 1, 28, 139.05, 7.84, 1, 1, 28, 130.21, -20.75, 1, 1, 28, 110.94, -19.19, 1, 1, 28, 75.36, 0.45, 1, 3, 24, 130.28, -1.55, 0.16701, 26, 57.07, 79.44, 0.3978, 28, 107.32, -16.33, 0.43519, 1, 26, 218.25, 177.41, 1, 1, 26, 243.84, 164.8, 1, 3, 7, 421.77, -50.52, 0.00112, 8, 328.54, 24.19, 0.04736, 26, 245.54, 131.32, 0.95152, 3, 7, 158.98, -105.45, 0.18843, 8, 84.92, -88.64, 0.76957, 26, 85.11, -83.96, 0.042, 4, 3, -90.32, 127.48, 0.01422, 2, -67.5, 117.19, 0.00264, 7, 56.82, -110, 0.59163, 8, -13.57, -116.14, 0.39151, 5, 4, -68.75, 40.55, 0.03511, 3, 27.6, 49.23, 0.82846, 2, 58.76, 53.25, 0.04162, 7, -72.33, -52.11, 0.09312, 8, -152.46, -88.9, 0.00169, 1, 4, 31.2, 23.73, 1, 2, 4, 97.82, 12.51, 0.19907, 5, -15.63, 17.02, 0.80093, 1, 5, 30.54, 26.89, 1, 5, 2, -137.38, -19.05, 0.00322, 7, 120.16, 29.4, 0.02527, 8, 16.67, 33.97, 0.06752, 24, 4.54, 9.56, 0.84868, 28, -18.29, -3.8, 0.05532, 3, 2, -175, -56.07, 0.00765, 7, 155.99, 68.16, 0.01843, 28, 22.86, 29.25, 0.97392, 3, 8, 24.45, 23.4, 0.43959, 24, 8.04, -3.09, 0.55236, 26, -21.43, -14.26, 0.00804, 2, 8, 146.31, 33.21, 0.64099, 26, 81.03, 52.42, 0.35901, 3, 7, 379.1, -48.09, 0.00581, 8, 286.41, 16.93, 0.1585, 26, 211.96, 104.86, 0.83569 ],
+					"hull": 26,
+					"edges": [ 2, 4, 8, 10, 14, 16, 16, 18, 18, 20, 24, 26, 36, 38, 38, 40, 40, 42, 42, 44, 48, 50, 44, 46, 46, 48, 10, 12, 12, 14, 4, 6, 6, 8, 50, 0, 0, 2, 20, 22, 22, 24, 32, 34, 34, 36, 26, 28, 28, 30, 30, 32, 52, 54, 54, 22, 52, 56, 56, 58, 58, 60, 60, 38 ],
+					"width": 561,
+					"height": 378
+				}
+			},
+			"basic/2/Rang duoi": {
+				"basic/2/Rang duoi": { "x": 26.35, "y": 12.09, "rotation": -90, "width": 55, "height": 54 }
+			},
+			"Trong mat": {
+				"basic/1/Trong mat": { "rotation": 160.71, "width": 12, "height": 12 }
+			},
+			"Vay duoi 1": {
+				"basic/1/Vay duoi 1": {
+					"type": "mesh",
+					"uvs": [ 0.53817, 0, 0.99034, 0.29152, 1, 0.53381, 0.755, 0.56146, 0.74835, 0.84113, 0.48587, 0.85276, 0.39636, 1, 0.24774, 1, 0.01351, 0.63679, 1.0E-5, 0.31527, 0.19579, 0.09026, 0.43075, 0 ],
+					"triangles": [ 5, 11, 0, 3, 5, 0, 3, 1, 2, 3, 0, 1, 6, 7, 5, 5, 7, 10, 7, 8, 10, 8, 9, 10, 10, 11, 5, 4, 5, 3 ],
+					"vertices": [ 1, 15, 22.97, 24.61, 1, 1, 15, 125.17, 18.13, 1, 1, 15, 134.6, -8.17, 1, 2, 14, 107.59, 29.64, 0.34346, 15, 84.93, -25.24, 0.65654, 2, 14, 124.7, 2.38, 0.86554, 15, 92.14, -56.61, 0.13446, 2, 14, 79.25, -30.65, 0.62282, 16, 100.8, 22.56, 0.37718, 2, 14, 73.12, -55.47, 0.09896, 16, 98.94, -2.94, 0.90104, 1, 16, 76.19, -25.17, 1, 1, 16, 11.15, -30.33, 1, 2, 14, -41.43, -38.9, 0.00466, 16, -16.76, -5.9, 0.99534, 3, 14, -21.67, 6.2, 0.81899, 16, -4.88, 41.88, 0.13706, 15, -44.87, -4.97, 0.04395, 2, 14, 13.8, 43.32, 0.00202, 15, 0.82, 18.46, 0.99798 ],
+					"hull": 12,
+					"edges": [ 0, 22, 0, 2, 2, 4, 4, 6, 14, 16, 16, 18, 18, 20, 20, 22, 6, 8, 8, 10, 10, 12, 12, 14 ],
+					"width": 214,
+					"height": 115
+				}
+			},
+			"Vay duoi 2": {
+				"basic/1/Vay duoi 2": { "x": 35.77, "y": 4.31, "rotation": -10.38, "width": 90, "height": 61 }
+			},
+			"Vay giua": {
+				"basic/1/Vay giua": {
+					"type": "mesh",
+					"uvs": [ 0.9291, 0, 0.91265, 0.10826, 0.68736, 0.24786, 1, 0.43577, 0.99451, 0.55054, 0.72423, 0.67032, 0.98121, 0.88699, 0.97913, 0.98864, 0.68071, 0.99013, 0.11089, 0.99299, 5.8E-4, 0.58237, 0.49358, 0.06474, 0.76173, 1.0E-5 ],
+					"triangles": [ 8, 9, 5, 7, 8, 6, 5, 9, 10, 6, 8, 5, 4, 5, 3, 3, 5, 2, 10, 2, 5, 10, 11, 2, 2, 12, 1, 2, 11, 12, 1, 12, 0 ],
+					"vertices": [ 1, 22, 105.4, -10.3, 1, 1, 22, 94.34, -18.5, 1, 2, 22, 63.47, -12.2, 0.81624, 21, 63.62, 31.94, 0.18376, 2, 22, 72.01, -54.66, 4.8E-4, 21, 89.74, -2.61, 0.99952, 2, 21, 84.25, -16.01, 0.99996, 23, 77.17, 45.21, 4.0E-5, 2, 21, 49.64, -19.6, 0.65022, 23, 47.74, 26.65, 0.34978, 1, 23, 80.45, 2.91, 1, 1, 23, 81.67, -9.84, 1, 1, 23, 47.3, -13.96, 1, 3, 22, -50.36, -30.34, 2.0E-5, 21, -31.07, -33.79, 0.02052, 23, -18.33, -21.82, 0.97946, 3, 22, -22.44, 15.06, 0.70708, 21, -25.61, 19.22, 0.2395, 23, -36.92, 28.13, 0.05342, 1, 22, 64.16, 20, 1, 1, 22, 91.79, 3.54, 1 ],
+					"hull": 13,
+					"edges": [ 0, 24, 18, 20, 20, 22, 22, 24, 4, 6, 0, 2, 2, 4, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18 ],
+					"width": 116,
+					"height": 126
+				}
+			},
+			"Sung truoc": {
+				"basic/1/Sung truoc": { "x": 11, "y": 1.24, "rotation": -122.95, "width": 31, "height": 39 }
+			},
+			"Sung sau": {
+				"basic/1/Sung sau": { "x": 10.75, "y": -1.46, "rotation": -117.76, "width": 31, "height": 39 }
+			},
+			"Vay tren": {
+				"basic/1/Vay tren": {
+					"type": "mesh",
+					"uvs": [ 0.68411, 0.40968, 0.8574, 0, 1, 9.6E-4, 1, 0.07353, 0.99204, 0.10416, 0.86234, 0.91066, 0.61942, 0.95011, 0.25682, 0.97932, 0, 1, 0, 0.84587, 0.0839, 0.46391, 0.27364, 0.10384, 0.40729, 0.15271, 0.38655, 0.41602, 0.59383, 0.02784, 0.73292, 0.02521 ],
+					"triangles": [ 4, 1, 2, 3, 4, 2, 4, 0, 1, 5, 0, 4, 6, 0, 5, 13, 11, 12, 10, 11, 13, 7, 10, 13, 9, 10, 7, 8, 9, 7, 0, 14, 15, 0, 13, 14, 6, 13, 0, 7, 13, 6 ],
+					"vertices": [ 2, 17, 75.38, -29.63, 0.54714, 19, 59.69, 33.79, 0.45286, 1, 19, 131.21, 9.72, 1, 1, 19, 142, -25.15, 1, 1, 19, 131.68, -28.39, 1, 1, 19, 126.71, -27.81, 1, 1, 19, 2.12, -32.08, 1, 2, 17, -5.71, -43.11, 0.50727, 19, -22.1, 25.5, 0.49273, 2, 17, -43.12, 41.96, 0.25433, 18, -11.71, -33.29, 0.74567, 1, 18, -40.59, 25.86, 1, 1, 18, -19.5, 34.96, 1, 1, 18, 41.26, 37.78, 1, 1, 18, 109.76, 14.44, 1, 2, 17, 85.66, 50.26, 0.0095, 18, 116.63, -19.86, 0.9905, 2, 17, 47.14, 41.12, 0.51955, 18, 78.51, -30.53, 0.48045, 1, 17, 120.18, 12.38, 1, 1, 17, 133.34, -20.71, 1 ],
+					"hull": 16,
+					"edges": [ 4, 6, 6, 8, 8, 10, 10, 12, 20, 22, 0, 30, 22, 24, 24, 26, 26, 28, 28, 30, 0, 2, 2, 4, 12, 14, 14, 16, 16, 18, 18, 20 ],
+					"width": 256,
+					"height": 149
+				}
+			},
+			"Mi mat": {
+				"basic/1/Mi mat": { "x": 9.64, "y": -2.72, "rotation": -65.06, "width": 67, "height": 32 }
+			}
+		}
+	},
+	{
+		"name": "skin2",
+		"attachments": {
+			"Mat": {
+				"basic/1/Mat": { "path": "green/1/Mat", "x": 18.66, "y": -6.29, "rotation": 160.71, "width": 82, "height": 77 }
+			},
+			"basic/2/Rang tren": {
+				"basic/2/Rang tren": { "path": "green/2/Rang tren", "x": 36.75, "y": 14.62, "rotation": 113.63, "width": 55, "height": 52 }
+			},
+			"Sung sau": {
+				"basic/1/Sung sau": { "path": "green/1/Sung sau", "x": 10.75, "y": -1.46, "rotation": -117.76, "width": 31, "height": 39 }
+			},
+			"basic/2/Rang duoi": {
+				"basic/2/Rang duoi": { "path": "green/2/Rang duoi", "x": 26.35, "y": 12.09, "rotation": -90, "width": 55, "height": 54 }
+			},
+			"Trong mat": {
+				"basic/1/Trong mat": { "path": "green/1/Trong mat", "rotation": 160.71, "width": 12, "height": 12 }
+			},
+			"Vay duoi 1": {
+				"basic/1/Vay duoi 1": { "type": "linkedmesh", "path": "green/1/Vay duoi 1", "skin": "skin1", "parent": "basic/1/Vay duoi 1", "width": 212, "height": 113 }
+			},
+			"Vay duoi 2": {
+				"basic/1/Vay duoi 2": { "path": "green/1/Vay duoi 2", "x": 35.77, "y": 4.31, "rotation": -10.38, "width": 90, "height": 61 }
+			},
+			"Vay giua": {
+				"basic/1/Vay giua": { "type": "linkedmesh", "path": "green/1/Vay giua", "skin": "skin1", "parent": "basic/1/Vay giua", "width": 116, "height": 126 }
+			},
+			"Sung truoc": {
+				"basic/1/Sung truoc": { "path": "green/1/Sung truoc", "x": 11, "y": 1.24, "rotation": -122.95, "width": 31, "height": 39 }
+			},
+			"Body": {
+				"basic/1/Body": {
+					"name": "basic/2/Body",
+					"type": "linkedmesh",
+					"path": "green/2/Body",
+					"skin": "skin1",
+					"parent": "basic/1/Body",
+					"width": 561,
+					"height": 378
+				}
+			},
+			"Vay tren": {
+				"basic/1/Vay tren": { "type": "linkedmesh", "path": "green/1/Vay tren", "skin": "skin1", "parent": "basic/1/Vay tren", "width": 256, "height": 149 }
+			},
+			"Mi mat": {
+				"basic/1/Mi mat": { "path": "green/1/Mi mat", "x": 9.64, "y": -2.72, "rotation": -65.06, "width": 67, "height": 32 }
+			}
+		}
+	},
+	{
+		"name": "skin3",
+		"attachments": {
+			"Mat": {
+				"basic/1/Mat": { "path": "blue/1/Mat", "x": 18.66, "y": -6.29, "rotation": 160.71, "width": 82, "height": 77 }
+			},
+			"basic/2/Rang tren": {
+				"basic/2/Rang tren": { "path": "blue/2/Rang tren", "x": 36.75, "y": 14.62, "rotation": 113.63, "width": 55, "height": 52 }
+			},
+			"Sung sau": {
+				"basic/1/Sung sau": { "path": "blue/1/Sung sau", "x": 10.75, "y": -1.46, "rotation": -117.76, "width": 31, "height": 39 }
+			},
+			"basic/2/Rang duoi": {
+				"basic/2/Rang duoi": { "path": "blue/2/Rang duoi", "x": 26.35, "y": 12.09, "rotation": -90, "width": 55, "height": 54 }
+			},
+			"Trong mat": {
+				"basic/1/Trong mat": { "path": "blue/1/Trong mat", "rotation": 160.71, "width": 12, "height": 12 }
+			},
+			"Vay duoi 1": {
+				"basic/1/Vay duoi 1": { "type": "linkedmesh", "path": "blue/1/Vay duoi 1", "skin": "skin1", "parent": "basic/1/Vay duoi 1", "width": 214, "height": 115 }
+			},
+			"Vay duoi 2": {
+				"basic/1/Vay duoi 2": { "path": "blue/1/Vay duoi 2", "x": 35.77, "y": 4.31, "rotation": -10.38, "width": 90, "height": 61 }
+			},
+			"Vay giua": {
+				"basic/1/Vay giua": { "type": "linkedmesh", "path": "blue/1/Vay giua", "skin": "skin1", "parent": "basic/1/Vay giua", "width": 116, "height": 126 }
+			},
+			"Sung truoc": {
+				"basic/1/Sung truoc": { "path": "blue/1/Sung truoc", "x": 11, "y": 1.24, "rotation": -122.95, "width": 31, "height": 39 }
+			},
+			"Body": {
+				"basic/1/Body": {
+					"name": "basic/2/Body",
+					"type": "linkedmesh",
+					"path": "blue/2/Body",
+					"skin": "skin1",
+					"parent": "basic/1/Body",
+					"width": 561,
+					"height": 378
+				}
+			},
+			"Vay tren": {
+				"basic/1/Vay tren": { "type": "linkedmesh", "path": "blue/1/Vay tren", "skin": "skin1", "parent": "basic/1/Vay tren", "width": 256, "height": 149 }
+			},
+			"Mi mat": {
+				"basic/1/Mi mat": { "path": "blue/1/Mi mat", "x": 9.64, "y": -2.72, "rotation": -65.06, "width": 67, "height": 32 }
+			}
+		}
+	}
+],
+"events": {
+	"Attack": {}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"basic/2/Luoi": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.0667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": 3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Body2": {
+				"rotate": [
+					{ "angle": -0.81 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 3.98 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -4.07 },
+					{ "time": 1.3333, "angle": -0.81 }
+				]
+			},
+			"Body3": {
+				"rotate": [
+					{ "angle": -2.37 },
+					{ "time": 0.1 },
+					{ "time": 0.4333, "angle": 9.47 },
+					{ "time": 0.7667 },
+					{ "time": 1.1, "angle": -7.91 },
+					{ "time": 1.3333, "angle": -2.37 }
+				]
+			},
+			"Body4": {
+				"rotate": [
+					{ "angle": -1.19 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 10.86 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -11.87 },
+					{ "time": 1.3333, "angle": -1.19 }
+				]
+			},
+			"Body5": {
+				"rotate": [
+					{ "angle": 1.38 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": -1.97 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": 13.84 },
+					{ "time": 1.3333, "angle": 1.38 }
+				]
+			},
+			"Vay tren": {
+				"rotate": [
+					{ "angle": -0.28 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 1.99 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -2.79 },
+					{ "time": 1.3333, "angle": -0.28 }
+				]
+			},
+			"Vay tren2": {
+				"rotate": [
+					{ "angle": -0.89 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 4.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -4.44 },
+					{ "time": 1.3333, "angle": -0.89 }
+				]
+			},
+			"Vay tren3": {
+				"rotate": [
+					{ "angle": -0.89 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 4.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -4.44 },
+					{ "time": 1.3333, "angle": -0.89 }
+				]
+			},
+			"Vay duoi 1": {
+				"rotate": [
+					{ "angle": -0.78 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 8.84 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -0.78 }
+				]
+			},
+			"Vay duoi 3": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			},
+			"Vay duoi 2": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			},
+			"Mi mat": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -4.45 },
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -3.18, "y": -2.91 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 0.8, "y": 0.9 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Trong mat": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": 8.38 },
+					{ "time": 1, "x": -7.09, "y": 4.38 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Vay duoi 4": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 8.84 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": -7.79 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Sung sau": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 0.09, "y": -4.26 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.09, "y": -4.26 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Sung truoc": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 0.09, "y": -4.26 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.09, "y": -4.26 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Vay giua": {
+				"rotate": [
+					{ "angle": -0.78 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 8.84 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -0.78 }
+				]
+			},
+			"Vay giua3": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			},
+			"Vay giua2": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			},
+			"Body11": {
+				"rotate": [
+					{ "angle": -26.83 },
+					{ "time": 0.3333, "angle": 18.5 },
+					{ "time": 0.6667, "angle": -26.83 }
+				]
+			},
+			"Body10": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -2.99 },
+					{ "time": 1.3333 }
+				]
+			},
+			"basic/2/Luoi": {
+				"translate": [
+					{},
+					{ "time": 0.0667, "x": -5.8, "y": -13.52 },
+					{ "time": 0.6, "x": -9.74, "y": -21.02 },
+					{ "time": 0.7333 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "Body", "offset": 1 }
+				]
+			}
+		],
+		"events": [
+			{ "name": "Attack" }
+		]
+	},
+	"idle": {
+		"bones": {
+			"Body": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": 3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Body2": {
+				"rotate": [
+					{ "angle": -0.81 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 3.98 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -4.07 },
+					{ "time": 1.3333, "angle": -0.81 }
+				]
+			},
+			"Body3": {
+				"rotate": [
+					{ "angle": -2.37 },
+					{ "time": 0.1 },
+					{ "time": 0.4333, "angle": 9.47 },
+					{ "time": 0.7667 },
+					{ "time": 1.1, "angle": -7.91 },
+					{ "time": 1.3333, "angle": -2.37 }
+				]
+			},
+			"Body4": {
+				"rotate": [
+					{ "angle": -1.19 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 10.86 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -11.87 },
+					{ "time": 1.3333, "angle": -1.19 }
+				]
+			},
+			"Body5": {
+				"rotate": [
+					{ "angle": 1.38 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": -1.97 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": 13.84 },
+					{ "time": 1.3333, "angle": 1.38 }
+				]
+			},
+			"Vay tren": {
+				"rotate": [
+					{ "angle": -0.28 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 1.99 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -2.79 },
+					{ "time": 1.3333, "angle": -0.28 }
+				]
+			},
+			"Vay tren2": {
+				"rotate": [
+					{ "angle": -0.89 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 4.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -4.44 },
+					{ "time": 1.3333, "angle": -0.89 }
+				]
+			},
+			"Vay tren3": {
+				"rotate": [
+					{ "angle": -0.89 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 4.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -4.44 },
+					{ "time": 1.3333, "angle": -0.89 }
+				]
+			},
+			"Vay duoi 1": {
+				"rotate": [
+					{ "angle": -0.78 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 8.84 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -0.78 }
+				]
+			},
+			"Vay duoi 3": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			},
+			"Vay duoi 2": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			},
+			"Mi mat": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -4.45 },
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -3.18, "y": -2.91 },
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 0.8, "y": 0.9 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Trong mat": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": 8.38 },
+					{ "time": 1, "x": -7.09, "y": 4.38 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Vay duoi 4": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "angle": 8.84 },
+					{ "time": 0.6667 },
+					{ "time": 1, "angle": -7.79 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Sung sau": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 0.09, "y": -4.26 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.09, "y": -4.26 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Sung truoc": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": 0.09, "y": -4.26 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.09, "y": -4.26 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Vay giua": {
+				"rotate": [
+					{ "angle": -0.78 },
+					{ "time": 0.0333 },
+					{ "time": 0.3667, "angle": 8.84 },
+					{ "time": 0.7 },
+					{ "time": 1.0333, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -0.78 }
+				]
+			},
+			"Vay giua3": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			},
+			"Vay giua2": {
+				"rotate": [
+					{ "angle": -1.56 },
+					{ "time": 0.0667 },
+					{ "time": 0.4, "angle": 8.84 },
+					{ "time": 0.7333 },
+					{ "time": 1.0667, "angle": -7.79 },
+					{ "time": 1.3333, "angle": -1.56 }
+				]
+			}
+		}
+	}
+}
+}

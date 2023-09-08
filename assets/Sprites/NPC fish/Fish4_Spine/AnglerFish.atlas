@@ -1,0 +1,216 @@
+
+AnglerFish.png
+size: 1996,517
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+basic/Body
+  rotate: false
+  xy: 2, 236
+  size: 565, 279
+  orig: 565, 279
+  offset: 0, 0
+  index: -1
+basic/Mat
+  rotate: false
+  xy: 1842, 55
+  size: 76, 76
+  orig: 78, 78
+  offset: 1, 1
+  index: -1
+blue/Mat
+  rotate: false
+  xy: 1842, 55
+  size: 76, 76
+  orig: 78, 78
+  offset: 1, 1
+  index: -1
+red/Mat
+  rotate: false
+  xy: 1842, 55
+  size: 76, 76
+  orig: 78, 78
+  offset: 1, 1
+  index: -1
+basic/Mieng duoi
+  rotate: false
+  xy: 1205, 15
+  size: 224, 38
+  orig: 226, 40
+  offset: 1, 1
+  index: -1
+basic/Rau sau
+  rotate: true
+  xy: 1587, 2
+  size: 86, 253
+  orig: 86, 253
+  offset: 0, 0
+  index: -1
+basic/Rau truoc
+  rotate: true
+  xy: 2, 30
+  size: 204, 249
+  orig: 204, 249
+  offset: 0, 0
+  index: -1
+basic/Trong mat
+  rotate: false
+  xy: 2, 15
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+blue/Trong mat
+  rotate: false
+  xy: 2, 15
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+red/Trong mat
+  rotate: false
+  xy: 2, 15
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+basic/Vay duoi
+  rotate: true
+  xy: 1545, 90
+  size: 145, 182
+  orig: 145, 182
+  offset: 0, 0
+  index: -1
+basic/Vay giua
+  rotate: false
+  xy: 1729, 93
+  size: 36, 38
+  orig: 38, 40
+  offset: 1, 1
+  index: -1
+red/Vay giua
+  rotate: false
+  xy: 1729, 93
+  size: 36, 38
+  orig: 38, 40
+  offset: 1, 1
+  index: -1
+basic/Vay tren
+  rotate: false
+  xy: 1279, 58
+  size: 264, 177
+  orig: 264, 177
+  offset: 0, 0
+  index: -1
+basic/Vien mat
+  rotate: true
+  xy: 1953, 257
+  size: 75, 41
+  orig: 77, 43
+  offset: 1, 1
+  index: -1
+blue/Body
+  rotate: false
+  xy: 569, 237
+  size: 563, 278
+  orig: 565, 280
+  offset: 1, 1
+  index: -1
+blue/Mieng duoi
+  rotate: false
+  xy: 751, 15
+  size: 225, 38
+  orig: 227, 40
+  offset: 1, 1
+  index: -1
+blue/Rau sau
+  rotate: true
+  xy: 1699, 248
+  size: 84, 252
+  orig: 86, 254
+  offset: 1, 1
+  index: -1
+blue/Rau truoc
+  rotate: true
+  xy: 253, 32
+  size: 202, 247
+  orig: 204, 249
+  offset: 1, 1
+  index: -1
+blue/Vay duoi
+  rotate: false
+  xy: 1699, 334
+  size: 144, 181
+  orig: 146, 183
+  offset: 1, 1
+  index: -1
+blue/Vay giua
+  rotate: true
+  xy: 1953, 219
+  size: 36, 39
+  orig: 38, 41
+  offset: 1, 1
+  index: -1
+blue/Vay tren
+  rotate: false
+  xy: 751, 55
+  size: 262, 180
+  orig: 264, 182
+  offset: 1, 1
+  index: -1
+blue/Vien mat
+  rotate: false
+  xy: 1431, 15
+  size: 76, 41
+  orig: 78, 43
+  offset: 1, 1
+  index: -1
+red/Body
+  rotate: false
+  xy: 1134, 237
+  size: 563, 278
+  orig: 565, 280
+  offset: 1, 1
+  index: -1
+red/Mieng duoi
+  rotate: false
+  xy: 978, 15
+  size: 225, 38
+  orig: 227, 40
+  offset: 1, 1
+  index: -1
+red/Rau sau
+  rotate: true
+  xy: 1729, 133
+  size: 84, 252
+  orig: 86, 254
+  offset: 1, 1
+  index: -1
+red/Rau truoc
+  rotate: true
+  xy: 502, 32
+  size: 202, 247
+  orig: 204, 249
+  offset: 1, 1
+  index: -1
+red/Vay duoi
+  rotate: false
+  xy: 1845, 334
+  size: 144, 181
+  orig: 146, 183
+  offset: 1, 1
+  index: -1
+red/Vay tren
+  rotate: false
+  xy: 1015, 55
+  size: 262, 180
+  orig: 264, 182
+  offset: 1, 1
+  index: -1
+red/Vien mat
+  rotate: false
+  xy: 1509, 15
+  size: 76, 41
+  orig: 78, 43
+  offset: 1, 1
+  index: -1

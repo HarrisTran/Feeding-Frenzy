@@ -1,0 +1,139 @@
+
+Jelly fish full_fix face.png
+size: 566,1031
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 127, 797
+  size: 358, 232
+  orig: 358, 232
+  offset: 0, 0
+  index: -1
+Eye ball L
+  rotate: true
+  xy: 487, 798
+  size: 81, 70
+  orig: 83, 72
+  offset: 1, 1
+  index: -1
+Eyes lash
+  rotate: false
+  xy: 487, 964
+  size: 77, 65
+  orig: 79, 68
+  offset: 1, 1
+  index: -1
+Lips
+  rotate: true
+  xy: 487, 356
+  size: 116, 63
+  orig: 120, 66
+  offset: 2, 2
+  index: -1
+Pilple
+  rotate: true
+  xy: 237, 125
+  size: 84, 44
+  orig: 92, 68
+  offset: 4, 23
+  index: -1
+Small decor 3
+  rotate: false
+  xy: 2, 46
+  size: 81, 491
+  orig: 81, 491
+  offset: 0, 0
+  index: -1
+Small decor 4
+  rotate: true
+  xy: 127, 593
+  size: 202, 341
+  orig: 202, 341
+  offset: 0, 0
+  index: -1
+Tac 1
+  rotate: false
+  xy: 283, 254
+  size: 202, 218
+  orig: 202, 218
+  offset: 0, 0
+  index: -1
+Tac 2
+  rotate: true
+  xy: 283, 106
+  size: 146, 246
+  orig: 146, 246
+  offset: 0, 0
+  index: -1
+Tac 3
+  rotate: false
+  xy: 85, 154
+  size: 72, 383
+  orig: 72, 383
+  offset: 0, 0
+  index: -1
+eye ball R
+  rotate: true
+  xy: 487, 881
+  size: 81, 73
+  orig: 83, 75
+  offset: 1, 1
+  index: -1
+eye lash 2
+  rotate: true
+  xy: 487, 282
+  size: 72, 62
+  orig: 74, 64
+  offset: 1, 1
+  index: -1
+piple
+  rotate: false
+  xy: 2, 8
+  size: 32, 36
+  orig: 34, 38
+  offset: 1, 1
+  index: -1
+small decor
+  rotate: false
+  xy: 2, 539
+  size: 123, 490
+  orig: 123, 490
+  offset: 0, 0
+  index: -1
+small decor 2
+  rotate: false
+  xy: 159, 211
+  size: 122, 380
+  orig: 122, 380
+  offset: 0, 0
+  index: -1
+small tac 2
+  rotate: true
+  xy: 237, 2
+  size: 102, 300
+  orig: 102, 300
+  offset: 0, 0
+  index: -1
+small tac 3
+  rotate: false
+  xy: 470, 625
+  size: 89, 170
+  orig: 89, 170
+  offset: 0, 0
+  index: -1
+small tac 4
+  rotate: false
+  xy: 85, 18
+  size: 150, 134
+  orig: 150, 134
+  offset: 0, 0
+  index: -1
+small tac1
+  rotate: true
+  xy: 283, 474
+  size: 117, 281
+  orig: 117, 281
+  offset: 0, 0
+  index: -1

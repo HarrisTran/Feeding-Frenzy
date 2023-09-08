@@ -1,0 +1,48 @@
+
+fish13.png
+size: 355,763
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 2, 22
+  size: 646, 195
+  orig: 646, 195
+  offset: 0, 0
+  index: -1
+Mat
+  rotate: false
+  xy: 199, 2
+  size: 64, 64
+  orig: 66, 66
+  offset: 1, 1
+  index: -1
+Vay duoi 1
+  rotate: true
+  xy: 199, 68
+  size: 118, 138
+  orig: 120, 140
+  offset: 1, 1
+  index: -1
+Vay duoi 2
+  rotate: false
+  xy: 2, 670
+  size: 221, 91
+  orig: 223, 93
+  offset: 1, 1
+  index: -1
+Vay giua
+  rotate: false
+  xy: 225, 670
+  size: 119, 91
+  orig: 121, 93
+  offset: 1, 1
+  index: -1
+Vay tren
+  rotate: true
+  xy: 199, 188
+  size: 480, 154
+  orig: 480, 154
+  offset: 0, 0
+  index: -1
