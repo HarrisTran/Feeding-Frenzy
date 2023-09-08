@@ -13860,7 +13860,7 @@
         "__id__": 663
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 1012
@@ -21501,7 +21501,7 @@
       "__id__": 663
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 999
@@ -23324,7 +23324,7 @@
         "__id__": 1103
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 1164
@@ -24730,6 +24730,8 @@
       "__id__": 0
     },
     "fileId": "cdo1yWvmBCIY8/Fp+M+AtK",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -24847,6 +24849,8 @@
       "__id__": 0
     },
     "fileId": "0cFCW0QUtBUIVA+xoa6E6U",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -27506,6 +27510,8 @@
       "__id__": 0
     },
     "fileId": "c3i1yKgO1G3Yya3GTkClq6",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {

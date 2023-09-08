@@ -1,4 +1,4 @@
-import { _decorator, Component, director, JsonAsset, Label, MainFlow, Node, randomRangeInt, sp, Sprite, Tween, tween } from 'cc';
+import { _decorator, Component, director, JsonAsset, Label, log, MainFlow, Node, randomRangeInt, sp, Sprite, Tween, tween } from 'cc';
 import { PopupBase } from '../../../Services/PopupSystem/PopupBase';
 import { Tag } from '../../MatchingUI/Tag';
 import { NameStatic } from '../../MatchingUI/NameStatic';
@@ -15,8 +15,9 @@ export class PopupMatching extends PopupBase {
     @property(Node) fishPlayer: Node = null;
     private names : string[] = [];
 
-    callBack : Function
-    tween : Tween<Sprite>
+   //callBack : Function
+    //tween : Tween<Sprite>
+    progressLoadingDone: boolean = false;
 
     protected onShowStart(): void {
         this.names = this.nameSample.json.sample as string[];
@@ -32,6 +33,14 @@ export class PopupMatching extends PopupBase {
             tag.getComponentInChildren(Label).string = this.names[index];
         })
 
+        director.preloadScene("GameScene",
+        (completedCount: number, totalCount: number, item: any) =>{
+            this.energyLoading.fillRange = completedCount/ totalCount;
+        },
+        ()=>{
+            this.progressLoadingDone = true;
+        })
+
         if(NameStatic.getInstance() == null)
         {
             const names = new NameStatic()
@@ -44,39 +53,19 @@ export class PopupMatching extends PopupBase {
         this.fishPlayer.getComponent(PlayerImage).changeFishUI(data.getEquipedFish());
     }
 
-    protected onShowEnd(): void {
-        this.callBack = function() {
-            this.loadCallBack()
+    protected update(dt: number): void {
+        if(this.progressLoadingDone && this.tags.every(e=>e.loadingDone==true)){
+            this.fishPlayer.getComponentInChildren(sp.Skeleton).paused = true;
+            director.loadScene("GameScene");
         }
-        this.tween = this.fillBar()
-
-        this.scheduleOnce(this.callBack,4)
-        // setTimeout(() => {
-        //     this.fishPlayer.getComponentInChildren(sp.Skeleton).paused = true;
-        //     director.loadScene("GameScene");
-        // }, 4000);
-        this.tween = this.fillBar()
-        this.tween.start()
-        
     }
 
-    fillBar() : Tween<Sprite>
-    {
-        return  tween(this.energyLoading)
-        .to(5,{fillRange : 1})
-    }
+    
     stopLoad()
     {
-        this.unschedule(this.callBack)
-        this.tween.stop()
         director.loadScene("Menu");
         this.hide()
     }
 
-    private loadCallBack()
-    {
-        this.fishPlayer.getComponentInChildren(sp.Skeleton).paused = true;
-        director.loadScene("GameScene");
-    }
 }
 
